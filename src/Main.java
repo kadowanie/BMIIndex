@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        float weightKG = 65;
-        float heightCM = 172;
-        float BMI = weightKG / ((heightCM * heightCM) / 10000);
-        System.out.println(BMI);
+        float weightKg = 65;
+        float heightCm = 172;
+        float bmi = weightKg / ((heightCm * heightCm) / 10000);
+        System.out.println(bmi);
     }
 }
